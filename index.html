@@ -1,0 +1,674 @@
+<!doctype html>
+<html>
+<head>
+    <title>First class assignment</title>
+    <link rel="icon" href="images/f6v8e9GZ.jpg">
+</head>
+<body>
+
+    <img src="images/f6v8e9GZ.jpg" width="100px"  alt="logo">
+    <style>
+     img {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+     }
+        
+    </style>
+
+<h1 style="text-align:center;" >Full Stack Web Development SSB-352</h1>
+<h2 style="text-align:center;" >Mentor: Shohag Hasan</h2>
+<h3 style="text-align:center;" >Student name: Shaon iqbal</h3>
+<h4 style="text-align:center;" >Assignment : Use 70 tag on table</h4>
+<h5 style="text-align:center;" >Date: 03-April-2021</h5>
+</body>
+
+<table border="1px" width="100%" cellspacing="0">
+<tr>
+
+      <th>SI</td>
+      <th>Tag name</td>
+      <th>Description</td>
+        <th>Example</td>
+
+</tr>
+<tr>
+    <td>01
+        <td>button</td>
+        <td>Specifies a press/push button</td>
+        <td><button type="button">Click Here</button></td>
+    </td>
+</tr>
+<td>02</td>
+<td>canvas</td>
+<td>Specifies the display graphics on HTML web documment</td>
+<td><canvas id="CanvasEx"> </canvas>
+
+    <script type="text/javascript">
+      var canvas=document.getElementById('CanvasEx');
+      var ctx=canvas.getContext('2d');
+      ctx.fillStyle='#FFcc00';
+      ctx.fillRect(0,5,80,110);
+    
+      ctx.fillStyle='#FF9900';
+      ctx.fillRect(25,0,120,50);
+    
+      ctx.fillStyle='#FF00cc';
+      ctx.fillRect(100,35,120,60);
+    </script></td>
+<tr>
+    <td>03</td>
+        <td>audio</td>
+        <td>Specific audio content</td>
+        <td><audio controls="controls">
+            <source src="images/audio.mp3" />
+          </audio></td>
+</tr>
+<td>04</td>
+<td>address</td>
+        <td>Describes an address information</td>
+        <td><address>
+            Fire Service & Civil Defence<br />
+            Training Complex<br />
+            Mirpur 10,Dhaka
+          </address> </td>
+<tr>
+<td>05</td>
+<td>article</td>
+<td>Defines an article</td>
+<td><article>
+    <h3>Natural</h3>
+    <p>Natural resources (economically referred to as land or raw materials) 
+    occur naturally within environments that exist relatively undisturbed by 
+    mankind, in a natural form </td>
+</tr>
+<td>06</td>
+<td>aside</td>
+<td>Describes contain set(or write) on aside place in page contain</td>
+<td><aside style="float:left;">
+    <img src="images/f6v8e9GZ.jpg" height="100" width="150" />
+  </aside>
+  <p>Natural resources (economically referred to as land or raw materials) 
+  occur naturally within environments that exist relatively undisturbed by 
+  mankind, in a natural form.</td>
+<tr>
+    <td>07</td>
+    <td>base</td>
+    <td>Define a base URL for all the links with in a web page</td>
+    <td><base href="http://www.github.com/shaon00" target="_blank"/>
+      Let's get started <a href="shaon00">HTML Tutorial</td>
+</tr>
+<td>08</td>
+<td>command</td>
+<td>Define a command button, invoke as per user action</td>
+<td><menu>
+    <command type="checklist" label="Check List">Check List</command>
+  </menu></td>
+<tr>
+    <td>09</td>
+    <td>datalist</td>
+    <td>Define a list of pre-defined options surrounding input tag</td>
+    <td><label>Choose your country </label>
+        <input list="country"/>
+        <datalist id="country">
+          <option value="India"/>
+          <option value="Singapore"/>
+          <option value="Japan"/>
+        </datalist> </td>
+</tr>
+<td>10</td>
+<td>dialog</td>
+<td>Define a chat conversation between one or more person</td>
+<td> none</td>
+
+<tr>
+    <td>11</td>
+    <td>embed</td>
+    <td>Define a embedding external application using a relative plug-in</td>
+    <td>none</td>
+</tr>
+<td>12</td>
+<td>figcaption</td>
+<td>Represents a caption text corresponding with a figure element</td>
+<td><figure>
+    <img src="images/f6v8e9GZ.jpg" width="150" height="100" alt ="Natural" />
+    <figcaption> Figure 1. Natural Image</figcaption>
+  </figure>
+  <p>Natural resources (economically referred to as land or raw materials) occur naturally within environments that exist relatively undisturbed by mankind, in a natural form. A natural resource is often characterized by amounts of biodiversity existent in various ecosystems.</td>
+<tr>
+    <td>13</td>
+    <td>footer</td>
+    <td>Defines a footer section containing details about the author, copyright, contact us, sitemap, or links to related documents.</td>
+    <td><h1>Heading</h1>
+        <img src="images/img_nat.png" width="120" height="80" alt="Natural" align="right" />
+        <p>Natural resources (economically referred to as land or raw materials) are naturally forming substances that are considered valuable in their relatively unmodified (natural) natural form..</td>
+</tr>
+<td>14</td>
+<td>header</td>
+<td>Defines as a container that hold introductory content or navigation links.</td>
+<td>none</td>
+<tr>
+    <td>15</td>
+    <td>iframe</td>
+    <td>Defines a inline frame that embedded external content into current web document.</td>
+    <td><iframe src="https://www.youtube.com/embed/lW6R9kSGV2Q" 
+        width="200" height="150" frameborder="0"
+        allowfullscreen="allowfullscreen"></iframe></td>
+</tr>
+<td>16</td>
+<td>input</td>
+<td>Define a get information in selected input</td>
+<td><form action="form_tag_get.php" method="post">
+    Username: <input type="text" name="username"/>
+    <br />
+    Password: <input type="password" name="password" />
+    <br />
+    <input type="submit" value="Submit" />
+  </form></td>
+<tr>
+    <td>17</td>
+<td>kbd</td>
+<td>Used to identify text that are represents keyboard input.</td>
+<td>none</td>
+<tr>
+    <td>18</td>
+<td>label</td>
+<td>Used to caption a text label with a form input element</td>
+<td><form>
+    <label for="firstname">First Name </label> 
+    <input type="text" name="firstname" id="firstname" />
+  </form></td>
+</tr>
+<td>19</td>
+<td>map</td>
+<td>Defines an clickable image map.</td>
+<td><img src="images/download.png" width="207" height="139" alt="Natural" usemap ="#define">
+    </td>
+<tr>
+<td>20</td>
+<td>meter</td>
+<td>Used to measure data within a given range.</td>
+  <td> Your profile completed: <meter value="80" min="0" max="100">80%</meter></td>
+  
+  <td>Free Space: <meter value="52" min="0" max="100">52%</meter></td>
+</tr>
+<td>21</td>
+<td>i</td>
+<td>Defines a italic format text</td>
+<td><i>this tex is an italic format</i></td>
+<tr>
+  <td>22</td>
+<td>q</td>
+<td>Represents the short quotation.</td>
+<td>Steve Jobs says <q> Sometimes life hits you in the head with a brick. Don't lose faith.</q></td>
+</tr>
+<td>23</td>
+<td>s</td>
+<td>Text display in strikethrough style.</td>
+<td>Text display in <s>strikethrough</s> style.</td>
+<tr>
+  <td>24</td>
+  <td>var</td>
+  <td>Represents a variable in a computer program or mathematical equation.</td>
+  <td>This example represent var text.
+    <p><var>x</var> = 12</p></td>
+</tr>
+<td>25</td>
+<td>li</td>
+<td>Define a list item either ordered list or unordered list.</td>
+<td><ol>
+  <li>Order item</li>
+  <li>Order item</li>
+</ol> 
+
+<ul>
+  <li>Unorder item</li>
+  <li>Unorder item</li>
+</ul> 
+
+<menu>
+  <li>menu item</li>
+  <li>menu item</li>
+</menu></td>
+</tr>
+<td>26</td>
+<td>ol</td>
+<td>this tag use order list</td>
+<td><ol type="1" value="1">
+  <li>numbers</li>
+  <li>numbers</li>
+ </ol></td>
+ <tr>
+   <td>27</td>
+<td>ul</td> 
+<td>this tag use unorder list</td>
+<td><ul>
+  <li>first item</li>
+  <li>second item</li>
+  <li>third item</li>
+</ul></td>
+<tr>
+  <td>29</td>
+<td>small</td>
+<td>It is used to make text font one size smaller than document?s base font size</td>
+<td><h2>Example of small tag</h2>
+  <p>This is normal font size.....
+    <small>It is smaller than previous...
+        <small>It is smallest.</small></td>
+</tr>
+ <td>30</td>
+ <td>sup</td>
+ <td>It defines a text which represent as superscript text.</td>
+ <td><h2>Example of sup tag</h2>  
+  Following is the famous Pythagorean Theorem:   
+  <p style="font-size: 20px; color: green;"><var>a</var><sup>2</sup>+<var>b</var><sup>2</sup>=<var>c</var><sup>2</sup>  
+  </p>  
+  <p>Where a, b, and c represents the sides of right angle triangle</p>  </td>
+  </tr>
+  <td>31</td>
+  <td>svg</td>
+  <td>It is used as container of SVG (Scalable Vector Graphics).</td>
+<td><svg height="210" width="500">  
+  <polygon points="100,10 40,198 190,78 10,78 160,198"  
+  style="fill:red;stroke:yellow;stroke-width:5;fill-rule:nonzero;" />  
+</svg>  </td>
+<tr>
+  <td>32</td>
+<td>mark</td>
+<td>mark or highlight text</td>
+<td>Search results for "salamander":</p>
+
+  <hr>
+  
+  <p>Several species of <mark>salamander</mark> inhabit the temperate rainforest of the Pacific Northwest.</p>
+  
+  <p>Most <mark>salamander</mark>s are nocturnal, and hunt for insects, worms, and other small creatures.</p></td>
+  <tr>
+    <td>33</td>
+  <td>time</td>
+  <td>It is used to define data/time within an HTML document.</td>
+  <td><p>We open our shop at <time>09:00</time> am.</p>  
+    <p>The business meeting is scheduled on <time datetime="2009-02-18">next wednesday</time>.</p>  
+    <p>The wedding of Salman's sister was scheduled  at <time datetime="2014-11-19 T0 7:00-09:00">7pm last wednesday </time>.</p></td>
+    <tr>
+      <td>34</td>
+      <td>noscript</td>
+<td>noscript tag is used to define an alternate content for the users who have disabled scripting from the browser and want to access the web page.</td>
+<td><noscript>Sorry! Your browser does not support JavaScript.!</noscript></td>
+<tr>
+  <td>35</td>
+<td>progress</td>
+<td>It defines the progress of a task within HTML document.</td>
+<td><progress></progress></td>
+</tr>
+<td>36</td>
+<td>optgroup</td>
+<td>It is used to group the options of a drop-down list.</td>
+<td><title>Optgroup Tag</title>
+	<style>
+		body{
+		    text-align: center;
+		}
+		select{
+	                  font-size:20px; 
+                                  font-weight:bold; 
+                                  color:green; 
+		}
+	</style><h2>Example of optgroup tag</h2>
+<label>Select your favourite brand</label><br>
+<select>
+          <optgroup label="Laptop Maufacturur">
+	 	<option value="dell">Dell</option>
+	 	<option value="hp">HP</option>
+	 	<option value="lenovo">Lenovo</option>
+	 	<option value="acer">Acer</option>
+	 </optgroup>
+         <optgroup label="Mobile Manufacturer">
+	 	<option value="apple">Apple</option>
+	 	<option value="nokia">Nokia</option>
+	 	<option value="samsung">Samsung</option>
+	 	<option value="coolpad">Coolpad</option>	 
+            </optgroup></td>
+            <tr>
+<td>37</td>
+<td>form</td>
+<td>t is used to define an HTML form.</td>
+<td><form>  
+  Enter your name  <br>  
+ <input type="text" name="username">  
+</form>  </td>
+<tr>
+<td>38</td>
+<td>div</td>
+<td>t defines a division or section within HTML document</td>
+<td><div class="loginform">  
+  <h3 class="formheading">Please Login</h3>  
+  <form action="LoginServlet" method="post">  
+  <table>  
+  <tr><td>Email:</td><td><input type="email" name="email"/></td></tr>  
+  <tr><td>Password:</td><td><input type="password" name="password"/></td></tr>  
+  <tr><td colspan="2" style="text-align:center"><input class="sub" type="submit" value="login"/></td></tr>  
+  </table>  
+  </form>  
+  </div>  </td>
+  <tr>
+<td>39</td>
+<td>dfn</td>
+<td>It is used to indicate a term which is defined within a sentence/phrase.</td>
+<td><h2>Example of dfn Tag</h2>  
+  <p><dfn>HTML</dfn> A markup language for Web designing</p></td>
+  </tr>
+<td>40</td>
+<td>cite</td>
+<td>It is used to define the title of the work, book, website, etc.</td>
+<td><h2>Example of cite tag</h2>
+	<img src="images/html-cite-tag.png" height="150" width="120">
+              <p>A famous book:
+                <cite> Learning Web Design</cite> written by Jennifer Niederst Robbins</td>
+<tr>
+  <td>41</td>
+<td>summary</td>
+<td>It defines summary which can be used with details tag.</td>
+<td> <details>    
+  <summary>MacBook Pro Specification</summary>    
+    <ul>    
+      <li><strong>13.3-inch LED-backlit glossy widescreen display</strong> with edge-to-edge, uninterrupted glass (1280 x 800-pixel resolution).</li>    
+      <li><strong>2.4 GHz Intel Core i5 dual-core processor</strong> with 3 MB shared L3 cache for excellent multitasking.</li>    
+      <li><strong>Intel HD Graphics 3000</strong> with 384 MB of DDR3 SDRAM shared with main memory.</li>    
+      <li><strong>500 GB Serial ATA hard drive</strong> (5400 RPM)</li>    
+      <li><strong>4 GB installed RAM</strong> (1333 MHz DDR3; supports up to 8 GB)</li>    
+    </ul>    
+</details>   </td>
+</tr>
+<td>42</td>
+<td>del</td>
+<td>A text with a deleted part, and a new, inserted part:</td>
+<td><h1>The del and ins elements</h1>
+
+  <p>My favorite color is <del>blue</del> <ins>red</ins>!</p></td>
+</tr>
+<td>43</td>
+<td>col</td>
+<td>Defines attribute values for one or more columns in a table.</td>
+<td><title>Example of HTML col Tag</title>
+  <style type="text/css">
+      table, td, th {
+          border: 1px solid gray;
+      }
+  </style>
+      <table>
+       
+          <tr>
+              <th>No.</th>
+              <th>Name</th>
+              <th>Email</th>
+          </tr>
+          <tr>
+              <td>1</td>
+              <td>John Carter</td>
+              <td>johncarter@mail.com</td>
+          </tr>
+          <tr>
+              <td>2</td>
+              <td>Peter Parker</td>
+              <td>peterparker@mail.com</td>
+          </tr>
+          <tr>
+              <td>3</td>
+              <td>John Rambo</td>
+              <td>johnrambo@mail.com</td>
+          </tr>
+      </table></td>
+            </tr>
+<td>44</td>
+<td>fieldset</td>
+<td>pecifies a set of related form fields.</td>
+<td><form action="http://www.example.com/" method="post">
+  <fieldset>
+      <legend>Gender</legend>
+      <input type="radio" name="gender" value="male" id="male">
+      <label for="male">Male</label>
+      <input type="radio" name="gender" value="female" id="female">
+      <label for="female">Female</label>
+  </fieldset>
+</form></td>
+    </tr>
+  <td>45</td>
+  <td>em</td>
+  <td>Defines emphasized text</td>
+  <td>
+  <p>An em element is displayed like this:</p>
+  
+  <em>This is our first assignment</em>
+  
+  <p>Change the default CSS settings to see the effect.</p></td>
+  </tr>
+<td>46</td>
+<td>!--...--></td>
+<td>Defines a comment</td>
+<td><!-- This is a comment -->
+  <p>This is a paragraph.</p>
+  <!-- Comments are not displayed in the browser --></td>
+<tr>
+  <td>47</td>
+  <td>!DOCTYPE</td>
+  <td>Defines the document type</td>
+  <td>
+    The content of the document......
+    </td>
+</tr>
+<td>48</td>
+<td>a</td>
+<td>Defines a hyperlink</td>
+<td><h1>The a element</h1>
+
+  <a href="https://www.shikhbeshobai.com">Visit shikhbeshobai.com!</a></td>
+<tr>
+<td>49</td>
+<td>abbr</td>
+<td>Defines an abbreviation or an acronym</td>
+<td><h1>The abbr element</h1>
+
+  <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p></td>
+</tr>
+<td>50</td>
+<td>blockquote</td>
+<td>Defines a section that is quoted from another source</td>
+<td><h1>The blockquote element</h1>
+
+  <p>Here is a quote from WWF's website:</p>
+  
+  <blockquote cite="http://www.worldwildlife.org/who/index.html">
+  For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+  </blockquote></td>
+</tr>
+<td>51</td>
+<td>bdo</td>
+<td>Specific direction of text display</td>
+<td><bdo dir="rtl">Wow! This effect is bdo tag right to left display.</bdo>
+  <br />
+  <bdo dir="ltr">Wow! This effect is bdo tag left to right display.</bdo></td>
+<tr>
+  <td>52</td>
+<td>code</td>
+<td>Specifies computer code text</td>
+<td> <p>1.) HTML code tag example</p>
+  <code>#include &lt;stdio.h&gt; <br />
+    void main() <br />
+    { <br />
+      clrscr(); <br />
+      getch(); <br />
+    } <br />
+  </code>
+
+  <p>2.) HTML code tag with &lt;pre&gt; tag example</p>
+  <code>
+<pre>
+#include &lt;stdio.h&gt;
+void main()
+{
+  clrscr();
+  getch();
+}</td>
+</tr>
+<td>53</td>
+<td>h1 to h6</td>
+<td>Defines a Headings level from 1 to 6 different sizes.</td>
+<td><h1>Heading h1<h1>
+  <h2>Heading h2<h2>
+  <h3>Heading h3<h3>
+  <h4>Heading h4<h4>
+  <h5>Heading h5<h5>
+  <h6>Heading h6<h6></td>
+<tr>
+<td>54</td>
+<td>img</td>
+<td>Used to insert image into a web document</td>
+<td><img src="../../images/img_nat.png" width="300" height="200" alt=/></td>
+</tr>
+<td>55</td>
+<td>ins</td>
+<td>Used to indicate text that is inserted into a page and indicates changes to a document.</td>
+<td><p>Now a day Internet is <del>good</del> <ins>very good</ins> option for learning.</p></td>
+<tr>
+<td>56</td>
+<td>samp</td>
+<td>Represents text that should be interpreted as sample output from a computer program.</td>
+<td><h3>Example</h3>
+  <p>My computer program give me following output.</p>
+  <samp>
+    Hello World!
+  </samp></td>
+</tr>
+<td>57</td>
+<td>section</td>
+<td>Used to divide a document into number of different generic section.</td>
+<td><section>
+  <h4>Heading</h4>
+  <p>Heading description text....</p>
+  <p>Heading description text....</p>
+  <p>Heading description text....</p>
+</section>
+
+<section>
+  <h4>Another heading</h4>
+  <p>Another heading description text....</p>
+  <p>Another heading description text....</p>
+  <p>Another heading description text....</p>
+</section></td>
+<tr>
+<td>58</td>
+<td>select</td>
+<td>Used to create a drop-down list.</td>
+<td><h3> 1.) Choose one items</h3>
+  <select name="country">
+     <option value="india">India</option>
+     <option value="singapore">Singapore</option>
+     <option value="england">England</option>
+     <option value="france">France</option>
+  </select>
+  <br />
+
+  <h3>2.) Choose one or more items</h3>
+  <select name="country" size="5" multiple="multiple">
+     <option value="india">India</option>
+     <option value="singapore">Singapore</option>
+     <option value="england">England</option>
+     <option value="france">France</option>
+  </select>
+  <p>Press Ctrl button and select one or more items</p></td>
+</tr>
+<td>59</td>
+<td>eventsource</td>
+<td>Defines a source of event generates to remote server</td>
+<td>none</td>
+<tr>
+<td>60</td>
+<td>keygen</td>
+<td>Used to generate signed certificate, which is used to authenticate to services.</td>
+<td><keyge> name="rsakey"
+  challenge="challenge string"
+  keytype="RSA"</td>
+</tr>
+<td>61</td>
+<td>meta</td>
+<td>Used to provide structured metadata about a web page.</td>
+<td><meta name="author" content="Zenia Sroll"/></td>
+<tr>
+<td>62</td>
+<td>object</td>
+<td>Used to embedded objects such as images, audio, videos, Java applets, and Flash animations.</td>
+<td><object width="500" height="250" data="iloveyou.swf">
+</object></td>
+</tr>
+<td>63</td>
+<td>output</td>
+<td>Used for representing the result of a calculation.</td>
+<td><form oninput="result.value=parseInt(a.value)+parseInt(b.value);">
+  Value 1. <input type="number" name="a" value="25"/><br />
+  + <br />
+  Value 2. <input type="number" name="b" value="65"/> <br />
+  = <br />
+  Output is <output name="result">90</output>
+</form></td>
+<tr>
+<td>64</td>
+<td>rp</td>
+<td>	Used to provide parentheses around fall-back content to the browser that does not support the ruby annotations.</td>
+<td><ruby>草泥馬<rp>(</rp><rt>Cǎo Ní Mǎ</rt><rp>)</rp></ruby></td>
+</tr>
+<td>65</td>
+<td>rt</td>
+<td>Specifies the ruby text of ruby annotation.</td>
+<td><p> Syntax: 
+  <ruby>Base text <rt>Ruby text</rt> </ruby>
+</p>
+<p> Example: 
+  <ruby>草泥馬 <rt>Cǎo Ní Mǎ</rt> </ruby>
+</p></td>
+<tr>
+<td>66</td>
+<td>script</td>
+<td>Defines client-side JavaScript.</td>
+<td><script>
+  document.write("Hello World!");
+</script></td>
+</tr>
+<td>67</td>
+<td>thead</td>
+<td>Used to adding a header to a table that containing header information of the table.</td>
+<td><table border = "1">
+  <thead>
+  <tr> 
+    <td colspan="2">Table header</td></tr>
+  </thead>
+  <tr>
+  <td>Cell 1</td>
+  <td>Cell 2</td>
+  </tr>
+  <tr>
+  <td>Cell 3</td>
+  <td>Cell 4</td>
+  </tr>
+  </table></td>
+<tr>
+<td>68</td>
+<td>sub</td>
+<td>Represents inline subscript text.</td>
+<td><p>h<sub>2</sub>+so<sub>4</sub>=h<sub>2</sub>so<sub>4</sub></p>
+</td>
+</tr>
+<td>69</td>
+<td>dd</td>
+<td>Defines a definition description in a definition list</td>
+<td><dt>HTTP</dt>
+  <dd>Hyper Text Transfer Protocol</dd> 
+
+  <dt>URL</dt>
+  <dd>Universal Resource Locator</dd> </td>
+<tr>
+<td>70</td>
+<td>video</td>
+<td>Used to embed video content.</td>
+<td><video src="../../images/rolling_sample.mp4" width="300" height="170" controls="controls"></video></td>
+</tr>
